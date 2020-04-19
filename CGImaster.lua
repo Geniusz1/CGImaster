@@ -130,7 +130,7 @@ local cx, cy = 0, 0
 
 local window = Window:new(-1, -1, 350, 225)
 
-local exitButt = Button:new(297,5,49,19)
+local exitButt = Button:new(296,5,50,20)
 exitButt:text('EXIT')
 exitButt:action(function()
     interface.closeWindow(window)
