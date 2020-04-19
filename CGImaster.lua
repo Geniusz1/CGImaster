@@ -130,7 +130,7 @@ exitButt:action(function()
     interface.closeWindow(window)
 end)
 
-local header = Label:new(10,4,tpt.textwidth('CGImaster by Geniusz1'),20, 'CGImaster by Geniusz1')
+local header = Label:new(10,4,tpt.textwidth('CGImaster by Geniusz1 (v1.0)'),20, 'CGImaster by Geniusz1 (v1.0)')
 
 local labelIMGname = Label:new(10,28,tpt.textwidth('IMAGE NAME:'),20, 'IMAGE NAME:')
 
